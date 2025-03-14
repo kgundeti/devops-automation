@@ -11,7 +11,8 @@ public class OrderController {
 
     @GetMapping("/message")
     public String orderMessage(){
-        return "Message change in master";
+        return "Message from Order Service HI changeqqqqq.";
+
     }
 
 }
